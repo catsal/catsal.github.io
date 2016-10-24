@@ -1,0 +1,77 @@
+
+body {
+	background-color:#000000;
+    text-align: center;
+}
+
+#logo {
+background-color: #edebeb;
+text-align: center;
+width: 50%;
+margin:0 auto;
+padding-top: .2%;
+padding-left: 15%;
+padding-right: 15%;
+padding-bottom: .2%;
+}
+
+#page-wrap {
+background: url("../images/kaleispring.jpg");
+background-size: cover;
+width: 50%;
+margin:0 auto;
+padding-top: 15%;
+padding-left: 15%;
+padding-right: 15%;
+padding-bottom: 6%;
+}
+
+#background {
+background-size: cover;
+}
+
+
+#quote {
+font-size:40px; }
+
+#massimo {
+font-style: italic;
+font-size:30px;
+}
+
+#line {
+width: 200px;
+color:#ffffff;	
+}
+
+h1,h2, h3, p{
+	font-family: Futura; sans-serif;
+    color: #545050;
+}
+
+h1{
+	font-size: 150px;
+	font-weight:bold;
+	color: #FFFFFF;}
+
+ul{
+	font-family: Futura; sans-serif;
+    color: #545050;
+    list-style: none;
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+    <text-decoration: none;
+   }	
+
+  a{
+  	text-decoration: none;
+  	color: #ffffff;
+
+  }
+
+
+  /* mouse over link */
+a:hover {
+    color: #ed1849;
+}
