@@ -61,14 +61,14 @@ h1,h2, h3{
 }
 
 h1{
-	font-size: 150px;
+	font-size: 100px;
 	font-weight:bold;
 	color: #FFFFFF; }
 
-h2 {
+h2 {font-family: garamond,serif;
 	font-size:35px;}
 
-h3{
+h3{	font-family: garamond,serif;
 	font-style: italic;
 	font-size:30px;
 }		
@@ -96,7 +96,7 @@ ul{
 p{ font-family: 'cormorant garamond', garamond,serif;
 	text-align: left;
 	justify-content: all left;
-	font-size: 20px;
+	font-size: 14px;
 	line-height: 1.5em;
 	margin: 60px;	`
 	 }
