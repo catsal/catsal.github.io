@@ -1,102 +1,72 @@
-
-
-
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,700');
+* {margin:0;padding:0;box-sizing:border-box;}
 body {
 	background-color:#000000;
-
-   
+	font-family: 'Cormorant Garamond', serif;
+	line-height: 1.5;
 }
-
-#logo {
-background-color: #edebeb;
-text-align: center;
-width: 55%;
-margin:0 auto;
-padding-top: .2%;
-padding-left: 30em;
-padding-right: 30em;
-padding-bottom: .2%;
+header {
+	background-color: #edebeb;
+	text-align: center;
+	padding-top: .2%;
+	padding-bottom: .2%;
 }
-
 .page-wrap {
-background: url("../images/kaleispring.jpg");
-background-size: cover;
-width: 55%;
-margin:0 auto;
-padding-top: 30em;
-padding-left: 30em;
-padding-right: 30em;
-padding-bottom: 10em;
+	background: url("../images/kaleispring.jpg");
+	background-size: cover;
+	padding-top: 30em;
+	padding-bottom: 10em;
 }
-
 #background {
-background-size: cover;
-background-attachment: fixed;
+	background-size: cover;
+	background-attachment: fixed;
 }
-
-
 hr {
-width: 200px;
-color:#ffffff;
-align-content: center;	
+	width: 200px;
+	color:#ffffff;
+	align-content: center;	
 }
-
-
 #aboutme {
-background-color: #edebeb;
-background-size: cover;
-width: 55%;
-margin:0 auto;
-padding-top: 5%;
-padding-left: 30em;
-padding-right: 30em;
-padding-bottom: 6%;
+	background-color: #edebeb;
+	background-size: cover;
+	padding:5% 4em 6%;
 }
-
-
 h1,h2, h3{
-	font-family: Futura, sans-serif;
-    color: #545050; 
-    text-align: center;
+	color: #545050; 
+	text-align: center;
 }
-
 h1{
+	font-family: futura, serif;
 	font-size: 100px;
 	font-weight:bold;
 	color: #FFFFFF; }
 
-h2 {font-family: garamond,serif;
-	font-size:35px;}
-
-h3{	font-family: garamond,serif;
+h2 {
+	font-size:35px;
+}
+h3{	
 	font-style: italic;
 	font-size:30px;
 }		
-
 ul{
 	font-family: Futura, sans-serif;
-    color: #545050;
-    list-style: none;
-    text-align: center;
-    color: #ffffff;
-    font-size: 40px;
-    <text-decoration: none;
-   }	
-
-  a{
+	color: #545050;
+	list-style: none;
+	text-align: center;
+	color: #ffffff;
+	font-size: 40px;
+	text-decoration: none;
+}	
+a{
   	text-decoration: none;
-  	color: #ffffff;}
-
-
-  /* mouse over link */
-	a:hover {
-    color: #ed1849;
+  	color: #ffffff;
+}
+/* mouse over link */
+a:hover {
+	color: #ed1849;
 }
 
-p{ font-family: 'cormorant garamond', garamond,serif;
+p{ 
 	text-align: left;
-	justify-content: all left;
-	font-size: 14px;
-	line-height: 1.5em;
 	margin: 60px;	`
-	 }
+}
