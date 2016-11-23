@@ -11,11 +11,11 @@ body {
 
 header {
 	background-color: #edebeb;
-	padding: 10px;
+	padding: 9px;
 }
 
 header img {
-	height: 60px;
+	height: 55px;
 }
 
 section { 
@@ -43,11 +43,11 @@ a:hover {
 
 }
 
-.page-wrap {
+.bgimage {
 	background: url("../images/kaleispring.jpg");
 	background-size: cover;
-	padding-top: 30em;
-	padding-bottom: 25em;
+	padding-top: 20em;
+	padding-bottom: 15em;
 }
 
 #background {
@@ -58,9 +58,10 @@ a:hover {
 h1,h2,h3{
 	text-align: center;
 	}
+
 h1{
 	font-family: futura, serif;
-	font-size: 85px;
+	font-size: 75px;
 	color: #FFFFFF;
 	padding: 10px;
 	 }
@@ -84,24 +85,52 @@ h3 {
     background-color: #e52557;
     padding: 200px;
     float: left;
-    width: 50%;
+    width: 40%;
 }
 
 #right {
     background-color: #FFF;
     padding: 150px;
     float: right;   
-    width: 50%;
+    width: 60%;
     text-align: left;
 }
 
 
-#work {
 
+#work {
 	background-color: #edebeb;
+	padding: 20px;
+}
+
+#image1 {
+	float: left;
+	width:100px;
+}
+
+#image2 {
+	float:right;
+	width:100px;
 }
 
 
+.masonry { /* Masonry container */
+    column-count: 6;
+
+}
+
+#item1 { /* Masonry bricks or child elements */
+ 	float: left;
+}
+
+#item2 { /* Masonry bricks or child elements */
+ 	float: left;
+}
+
+
+#item3 { /* Masonry bricks or child elements */
+ 	float: center;
+}
 
 
 footer{
@@ -115,13 +144,6 @@ footer{
 }
 
 
-#wrapper {
-	width: 1080px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-
 .clearfix:after {
     visibility: hidden;
     display: block;
@@ -130,3 +152,14 @@ footer{
     clear: both;
     height: 0;
 }
+
+
+
+#wrapper {
+	width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
