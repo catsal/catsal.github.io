@@ -7,6 +7,7 @@ body {
 	background-color:#000000;
 	font-family: 'Cormorant Garamond', serif;
 	line-height: 1.5;
+	font-size: 16px;
 }
 
 header {
@@ -100,47 +101,65 @@ h3 {
 
 #work {
 	background-color: #edebeb;
-	padding: 20px;
+	padding: 30px;
 }
 
-#image1 {
-	float: left;
-	width:100px;
+.masonarywrapper {
+	width: 95%;
+	padding: 30px;
+	margin: 0 auto;
 }
-
-#image2 {
-	float:right;
-	width:100px;
-}
-
 
 .masonry { /* Masonry container */
     column-count: 6;
+    -moz-column-count: 6;
+    -webkit-column-count: 6;
+    margin: auto;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.masonry .item:hover img {
+ opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
 
 }
 
-#item1 { /* Masonry bricks or child elements */
- 	float: left;
+
+.item {
+	display: inline-block;
+	width: 100%;
+	 box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
 }
 
-#item2 { /* Masonry bricks or child elements */
- 	float: left;
-}
-
-
-#item3 { /* Masonry bricks or child elements */
- 	float: center;
-}
-
-
-footer{
+footer {
+	clear: both;
 	background-color: #000000;
 	text-align: center;
 	font-family: Futura, sans-serif;
 	color: #fff;
 	padding: 20px;
-	
-
 }
 
 
