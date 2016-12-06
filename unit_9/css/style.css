@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond:400,700');
+@import url('https://fonts.googleapis.com/css?family=Reem+Kufi');
+* {margin:0;padding:0;box-sizing:border-box;}
+
+
+
+body {
+	background-color:#000000;
+	font-family: 'Cormorant Garamond', serif;
+	line-height: 1.5;
+	font-size: 16px;
+}
+
+header {
+	background-color: #edebeb;
+	padding: .5625em;
+}
+
+header img {
+	height: 3.4375em;
+}
+
+section { 
+	text-align: center; 
+}
+
+ 
+a {
+	text-decoration: none;
+  	color: #fff;
+}
+
+/* mouse over link */
+a:hover {
+	color: #ed1849;
+}
+
+.bgimage {
+	background: url("../images/kaleispring.jpg");
+	background-size: cover;
+	padding-top: 20em;
+	padding-bottom: 15em;
+}
+
+#background {
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+h1,h2,h3{
+	text-align: center;
+}
+
+h1,h2 {
+	font-family: 'Reem Kufi',futura, sans-serif;
+}
+
+h1{
+	font-size: 4.683em;
+	color: #FFFFFF;
+	padding: 0.5em;
+}
+
+h2 {
+	font-size: 2.1875em;
+	color: #545050;
+	padding: 0.5em;
+}
+
+h3 {
+	font-size: 1.25em;
+	color: #e52557;
+	text-align: left;
+
+}
+
+#two_column {
+    background-color: #fff;
+}
+
+#left {
+    background-color: #e52557;
+    padding: 10.5em;
+    float: left;
+    width: 40%;
+}
+
+#right {
+    background-color: #fff;
+    padding: 7.375em;
+    float: right;   
+    width: 60%;
+    text-align: left;
+}
+
+#work {
+	background-color: #003333;
+}
+
+#work h1 {
+	font-size: 4em;
+	padding:0%;
+}
+
+
+.masonry { /* Masonry container */
+    column-count: 6;
+    -moz-column-count: 6;
+    -webkit-column-count: 6;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+        -moz-column-gap: 0;
+    -webkit-column-gap: 0;
+    column-gap: 0;
+        -webkit-column-fill: initial;
+    column-fill: initial;
+    line-height: 0px;
+}
+
+.masonry .item:hover img {
+ opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+.item {
+	display: inline-block;
+	width: 100%;
+	 box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.item img {
+	width:100%;
+}
+
+
+
+#two_column2 {
+    background-color: #545050;
+}
+
+#left2 {
+    background-color: #fff;
+    padding: 9.375em;
+    float: left;
+    width: 40%;
+}
+
+#left2 h1 {
+	color:#545050;
+
+}
+
+#right2 {
+    background-color: #545050;
+    padding: 100px;
+    float: right;   
+    width: 60%;
+    text-align: left;
+    color: #fff;
+    font-size: 1.5625em;
+}
+
+
+#right2  h3 {
+	font-family: 'Reem Kufi',futura, sans-serif;
+	font-weight: bold;
+	padding-top: 1em;
+	padding-bottom: .2em;
+}
+
+
+footer {
+	clear: both;
+	background-color: #000000;
+	text-align: center;
+	font-family: 'Reem Kufi',futura, sans-serif;
+	color: #fff;
+	padding: 1.25em;
+}
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+
+#wrapper {
+	width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+@media only screen and (max-width: 1193px) {
+
+h1{
+	font-family: futura, sans-serif;
+	font-size: 4.683em;
+	color: #FFFFFF;
+	padding: 0.625em;
+	 }
+
+#left h1 {
+	padding: 0%;
+	font-size: 3.5em
+}
+
+#right {
+	padding: 4em;
+
+}
+
+
+#work h1 {
+	font-size: 3.5em;
+
+}
+
+.masonry { 
+    column-count: 3;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+   }
+
+
+
+#left2  h1 {
+	padding: 0%;
+	font-size: 3.5em
+}
+
+#right2 {
+	padding: 3em;
+	font-size: 1.3em;
+}
+
+#right2 h3 {
+	font-size: 1em;
+}
+}
+
+@media only screen and (max-width: 1072px) {
+
+h2 {
+	font-size: 2em;
+	color: #545050;
+	padding: 0.625em;
+}
+
+
+#left h1 {
+	padding: 0%;
+	font-size: 3.5em
+}
+
+#right {
+	padding: 4em;
+
+}
+
+#work h1 {
+	font-size: 3em;
+
+}
+
+
+.masonry { /* Masonry container */
+    column-count: 3;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+   }
+
+
+#right2 {
+	padding: 3em;
+	font-size: 1.3em;
+}
+
+#right2 h3 {
+	font-size: 1em;
+
+}
+}
+
+@media only screen and (max-width: 990px) {
+
+	header img {
+		height: 3em;
+	}
+
+	.bgimage {
+		background: url("../images/kaleispring.jpg");
+		background-size: cover;
+		padding-top: 15em;
+		padding-bottom: 10em;
+	}
+
+	h1 {
+		font-size:4em;
+	}
+
+
+	h2 {
+		font-size: 1.5em;
+		color: #545050;
+		padding: 0.625em;
+	}
+
+
+	#left h1 {
+		padding: 0%;
+		font-size: 3em;
+	}
+
+	#right {
+		padding: 4em;
+
+	}
+
+
+	.masonry { /* Masonry container */
+	    column-count: 3;
+	    -moz-column-count: 3;
+	    -webkit-column-count: 3;
+	   }
+
+	#left2 h1 {
+		font-size: 3em;
+	}
+
+	#right2 {
+		padding: 3em;
+		font-size: 1.3em;
+	}
+
+	#right2 h3 {
+		font-size: 1em;
+	}
+}
+
+
+@media only screen and (max-width: 956px) {
+
+
+header img {
+	height: 3em;
+}
+
+.bgimage {
+	background: url("../images/kaleispring.jpg");
+	background-size: cover;
+	padding-top: 10em;
+	padding-bottom: 10em;
+}
+
+h1 {
+	font-size:4em;
+}
+
+
+h2 {
+	font-size: 1.5em;
+	color: #545050;
+	padding: 0.625em;
+}
+
+
+#left {
+	float: none;
+	padding: 0%;
+	width:100%;
+}
+
+#right {
+	float: none;
+	text-align: center;
+	width:100%;
+
+}
+
+
+.masonry { /* Masonry container */
+    column-count: 2;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+   }
+
+#left2 {
+	padding:0%;
+	float: none;
+	width:100%;
+}
+
+#right2 {
+	padding: 3em;
+	font-size: 1.3em;
+	text-align: center;
+	width:100%;
+}
+
+#right2 h3 {
+	text-align: center;
+}
+
+}
+
+@media only screen and (max-width: 695px) and (min-width: 320px){
+
+	header img {
+	height: 2em;
+	padding: 0%;
+}
+
+   .bgimage {
+	background: url("../images/kaleispring.jpg");
+	background-size: cover;
+	padding-top: 6.2em;
+	padding-bottom: 6.2em;
+}
+
+h1 {
+	font-size: 1.1em;
+	margin: 0 auto;
+}
+
+
+h2 {
+	font-size: 1em;
+	margin: 0 auto;
+}
+
+
+#work h1 {
+	font-size: 1.1em;
+}
+
+#left h1 {
+	font-size: 1.1em;
+}
+
+#left2 h1 {
+	font-size: 1.1em;
+}
+
+}
+
