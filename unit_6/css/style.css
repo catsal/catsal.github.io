@@ -34,7 +34,7 @@ section {
 
 a {
 	text-decoration: none;
-  	color: #545050;
+  	color: #fff;
 
 }
 
@@ -61,7 +61,7 @@ h1,h2,h3{
 	}
 
 h1{
-	font-family: futura, serif;
+	font-family: futura, sans-serif;
 	font-size: 75px;
 	color: #FFFFFF;
 	padding: 10px;
@@ -74,12 +74,14 @@ h2 {
 }
 
 h3 {
-	font-size: 35px;
+	font-size: 25px;
+	color: #e52557;
+	text-align: left;
 
 }
 
 #two_column {
-    background-color: #FFF;
+    background-color: #fff;
 }
 
 #left {
@@ -90,7 +92,7 @@ h3 {
 }
 
 #right {
-    background-color: #FFF;
+    background-color: #fff;
     padding: 150px;
     float: right;   
     width: 60%;
@@ -100,8 +102,11 @@ h3 {
 
 
 #work {
-	background-color: #edebeb;
-	padding: 45px;
+	background-color: #003333;
+}
+
+#work h1 {
+	font-size: 4em;
 }
 
 
@@ -117,6 +122,7 @@ h3 {
     column-gap: 0;
         -webkit-column-fill: initial;
     column-fill: initial;
+    line-height: 0px;
 }
 
 .masonry .item:hover img {
@@ -157,6 +163,43 @@ h3 {
 }
 
 
+
+#two_column2 {
+    background-color: #545050;
+}
+
+#left2 {
+    background-color: #fff;
+    padding: 150px;
+    float: left;
+    width: 40%;
+}
+
+#left2 h1 {
+	color:#545050;
+
+}
+
+#right2 {
+    background-color: #545050;
+    padding: 100px;
+    float: right;   
+    width: 60%;
+    text-align: left;
+    color: #fff;
+    font-size: 25px;
+}
+
+
+#right2  h3 {
+	font-family: Futura, sans-serif;
+	font-weight: bold;
+}
+
+
+hr {
+	width: 250px;
+}
 
 footer {
 	clear: both;
